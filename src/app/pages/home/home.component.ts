@@ -12,7 +12,6 @@ import { RouterModule } from '@angular/router';
   styleUrl: './home.component.css'
 })
 export class HomeComponent implements OnInit {
-menu: string|any[]|null|undefined;
   constructor(private service:OrderDetailsService) { }
   foodData:any;
   ngOnInit(): void {
